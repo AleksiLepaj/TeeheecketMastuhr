@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "7P2znBdGVPdDvGcgfdIGodnY+pIxnbCwZ44zoP+8Ro5TOzo5dUi022BpwwYoxYU+WmKtBDoWmopkM91rXdFMGA==",
+  "dgSpecHash": "aR0PaCpMT0ilrmvkCQAxApaTV8Z4dDy8xrI6tdDiHbEQ1iR6AsFoOo+3gupJKjS0q+cxg0sDEGmSD/OLIoJVwg==",
   "success": true,
   "projectFilePath": "C:\\Users\\L3XiC\\Desktop\\Projets\\TeeheecketMastuhr\\TeeheecketMastuhr\\TeeheecketMastuhr\\TeeheecketMastuhr.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\L3XiC\\.nuget\\packages\\htmlagilitypack\\1.11.70\\htmlagilitypack.1.11.70.nupkg.sha512"
+  ],
   "logs": []
 }
