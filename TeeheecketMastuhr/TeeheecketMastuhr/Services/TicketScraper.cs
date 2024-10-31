@@ -12,11 +12,10 @@ namespace TeeheecketMastuhr.Services
             _httpClient = httpClient;
         }
 
-        public async Task<List<Ticket>> ScrapeTicketsAsync(string url)
+        public async Task<List<Ticket>> ScrapeTicketsAsync(string htmlContent)
         {
-            var response = await _httpClient.GetStringAsync(url);
             var doc = new HtmlDocument();
-            doc.LoadHtml(response);
+            doc.LoadHtml(htmlContent);
 
             var tickets = new List<Ticket>();
 
@@ -35,7 +34,10 @@ namespace TeeheecketMastuhr.Services
                     Price = price
                 });
             }
+
             return tickets;
         }
+
+
     }
 }

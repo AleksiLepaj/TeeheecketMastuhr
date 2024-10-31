@@ -50,3 +50,5 @@ C:\Users\L3XiC\Desktop\Projets\TeeheecketMastuhr\TeeheecketMastuhr\TeeheecketMas
 C:\Users\L3XiC\Desktop\Projets\TeeheecketMastuhr\TeeheecketMastuhr\TeeheecketMastuhr\obj\Debug\net6.0\TeeheecketMastuhr.pdb
 C:\Users\L3XiC\Desktop\Projets\TeeheecketMastuhr\TeeheecketMastuhr\TeeheecketMastuhr\obj\Debug\net6.0\TeeheecketMastuhr.genruntimeconfig.cache
 C:\Users\L3XiC\Desktop\Projets\TeeheecketMastuhr\TeeheecketMastuhr\TeeheecketMastuhr\obj\Debug\net6.0\ref\TeeheecketMastuhr.dll
+C:\Users\L3XiC\Desktop\Projets\TeeheecketMastuhr\TeeheecketMastuhr\TeeheecketMastuhr\bin\Debug\net6.0\HtmlAgilityPack.dll
+C:\Users\L3XiC\Desktop\Projets\TeeheecketMastuhr\TeeheecketMastuhr\TeeheecketMastuhr\obj\Debug\net6.0\TeeheecketMastuhr.csproj.CopyComplete

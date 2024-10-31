@@ -1,0 +1,36 @@
+﻿@model List<TeeheecketMastuhr.Models.Ticket>
+
+<form method="get">
+    <label for="section">Filter by Section: </label>
+    <input type="text" id="section" name="section" />
+    <button type="submit">Filter</button>
+</form>
+
+<form method="get">
+    <input type="hidden" name="section" value="@ViewData["section"]" />
+    <label for="sortOrder">Sort by Price: </label>
+    <select id="sortOrder" name="sortOrder" onchange="this.form.submit()">
+        <option value="price_asc">Low to High</option>
+        <option value="price_desc">High to Low</option>
+    </select>
+</form>
+
+<table>
+    <thead>
+        <tr>
+            <th>Section</th>
+            <th>Row</th>
+            <th>Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var ticket in Model)
+        {
+            <tr>
+                <td>@ticket.Section</td>
+                <td>@ticket.Row</td>
+                <td>@ticket.Price:C</td>
+            </tr>
+        }
+    </tbody>
+</table>
